@@ -1,0 +1,38 @@
+Dimension s	Man (Percentiles)	Women (Percentiles)
+5%	50%		5%	50%	
+1- Height	1630	1745	1860	1510	1620	1730
+2-Eye	1520	1640	1760	1410	1515	1620
+3-Shoulder Height	1340	1445	1550	1240	1330	1420
+4-Elbow Height	1020	1100	1180	950	1020	1090
+5-Hip Height	850	935	1020	750	820	890
+6-Knuckle Height (Fist grip height)	700	765	830	670	720	770
+7-Fingertip Height	600	675	730	560	620	680
+8-Sitting Height	860	915	970	800	855	910
+9-Sitting Eye Height	740	800	860	700	750	800
+10-Sitting Shoulder	570	615	660	530	580	630
+11-Sitting Elbow Height	210	250	290	190	235	280
+12-Thigh Thickness	130	155	180	120	150	180
+13-Buttock-Knee Length	560	605	670	520	585	650
+14-Buttock-popliteal length	450	510	570	440	500	560
+15-Knee Height	490	535	580	460	595	530
+16-Popliteal Height (Lower leg Length)	410	450	490	370	410	450
+17-Shoulder Breadth (Bideltoid)	440	485	530	390	440	490
+18-Shoulder Breadth (Biacromial)	370	405	440	340	365	390
+19-Hip Breadth	350	390	430	350	405	460
+20-Chest Depth	210	245	280	210	250	290
+21-Abdominal Depth	220	275	330	200	270	340
+22-Shoulder-Elbow Length	330	365	400	300	330	360
+23-Elbow Fingertip Length	440	475	510	400	430	460
+24-Upper Limb Length	730	790	850	650	715	780
+25-Shoulder Grip Length	680	745	810	620	685	750
+26-Head Length	190	200	210	170	185	200
+27-Head Breadth	140	155	170	140	150	160
+28-Hand Length	170	190	210	160	175	190
+29-Hand Breadth	80	90	100	70	80	90
+30-Foot Length	240	265	290	220	240	260
+31-Foot Breadth	90	100	110	80	90	100
+32-Span	1670	810	1950	1520	1650	1780
+33-Elbow Span	870	845	1020	780	855	930
+34-Vertical Reach	1950	2100	2250	1810	1940	2070
+35-Vertical Reach (sit)	1220	1305	1390	1100	1190	1280
+36-Forward Grip Reach (Standing)	720	790	860	660	725	790
