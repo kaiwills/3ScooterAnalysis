@@ -54,7 +54,7 @@ def calc_joint_positions(df, gender, percentile, angles_in):
     return joints
 
 
-def plot_skeleton(joints, dists = True, gender = 'Man', percentile = '50'):
+def plot_skeleton(joints, dists = True, gender = 'Man', percentile = '50', save=False):
     
     # Plot the skeleton using the joints
     fig, ax = plt.subplots()
@@ -108,7 +108,13 @@ def plot_skeleton(joints, dists = True, gender = 'Man', percentile = '50'):
     ax.set_ylim(y_min, y_max)
     
     plt.title(f"2D Human Skeleton, {gender}, {percentile}%")
+    
+    if save:
+        plt.savefig(f'{gender}_{percentile}_2D.png')
+
     plt.show()
+
+
 
 
 def calculate_distances(joints):
