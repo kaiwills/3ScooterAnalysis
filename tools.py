@@ -1,5 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy.stats as stats
+import math
+from scipy.stats import norm
 
 def calculate_joint_positions(dimensions, angles):
     # Initialize the list of joints with the first joint (origin of the foot) at the origin
@@ -20,6 +27,25 @@ def calculate_joint_positions(dimensions, angles):
         joints.append((x_new, y_new))
     
     return joints
+
+
+#######
+
+def calc_A(df, gender='Man'):
+    
+    df['TorsoHeight'][f'{gender}95']  * df['Forearm'][f'{gender}95'] 
+    
+    for i in df.cols:
+        i['Man95'] 
+
+
+def calc_B(df):
+
+
+
+#######
+
+
 
 def plot_skeleton(joints):
     # Plot the skeleton using the joints
@@ -46,3 +72,11 @@ def plot_skeleton(joints):
     
     plt.title("2D Human Skeleton (Seated Position)")
     plt.show()
+ 
+ 
+    
+def generate_samples(data, feature, gender='Man'):
+    mu = data[feature][f'{gender}50']
+    sigma = (data[feature][f'{gender}95'] - data[feature][f'{gender}5']) / 3.29
+    samples = np.random.normal(mu, sigma, 1000)
+    return samples
